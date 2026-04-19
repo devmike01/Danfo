@@ -299,11 +299,11 @@ fun createArcGutterNavbarPath(
             180f, 90f, false
         )
 
-        // Move to arc start
+
         val arcStartX = centerX - gutterRadius
         lineTo(arcStartX, top)
 
-        // 👇 TRUE ARC (concave notch)
+
         arcTo(
             rect = rect,
             startAngleDegrees = 180f,

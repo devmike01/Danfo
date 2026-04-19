@@ -73,7 +73,7 @@ class CalendarState {
             }else{
                 pairList.add(wrapper.date)
             }
-            startAndEndRange.add(wrapper)
+            startAndEndRange.add(wrapper.copy(isPreselect = true))
         }
     }
 
